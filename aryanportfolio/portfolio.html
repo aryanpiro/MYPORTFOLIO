@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>KR Portfolio</title>
+  <link rel="stylesheet" href="portfolio.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet"/>
+</head>
+<body class="light-mode">
+  <header class="navbar">
+    <div class="container">
+      <a href="#" class="logo">KUMAR ARYAN</a>
+      <nav class="nav-links">
+        <ul>
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="theme-switcher">
+        <button id="theme-toggle" aria-label="Toggle light/dark mode">
+          <i class="fas fa-moon"></i>
+        </button>
+        <div class="hamburger-menu" aria-label="Toggle navigation">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="hero" class="hero-section">
+      <div class="container">
+        <div class="hero-content">
+          <h1 class="animate-text">Hi, I'm <span class="highlight">Kumar Aryan</span></h1>
+          <p class="animate-text">A passionate <span class="typing-text">Full-stack Developer</span> creating digital solutions</p>
+          <div class="hero-buttons">
+            <a href="#projects" class="btn primary-btn animate-fade-in">View My Work</a>
+           <a href="resume.pdf" download class="btn secondary-btn">Download CV</a>
+
+          </div>
+        </div>
+        <div class="hero-image animate-float">
+          <img src="WhatsApp Image 2025-06-06 at 14.56.29_448a3f45.jpg" alt="Kumar Aryan - Full-stack Developer" loading="lazy"/>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about-section section-padding">
+      <div class="container">
+        <h2 class="section-title animate-in-view">About Me</h2>
+        <div class="about-content">
+          <div class="about-text animate-in-view">
+            <h3>Building Digital Experiences</h3>
+            <p>I'm a software and web developer with a passion for creating efficient, user-friendly applications. My journey in tech began with a curiosity for problem-solving, leading me to master various programming languages and frameworks.</p>
+            <p>I specialize in building full-stack applications with clean, maintainable code and intuitive user interfaces.</p>
+            <div class="about-details">
+              <div class="detail-item">
+                <i class="fas fa-graduation-cap"></i>
+                <span>B.Tech in Computer Science</span>
+              </div>
+              <div class="detail-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <span>Based in India</span>
+              </div>
+            </div>
+          </div>
+          <div class="about-image animate-in-view">
+            <img src="images/about-me-illustration.png" alt="About Kumar Aryan" loading="lazy"/>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="skills-section section-padding">
+      <div class="container">
+        <h2 class="section-title animate-in-view">Skills</h2>
+        <div class="skills-grid">
+          <div class="skill-card animate-scale-up-in-view">
+            <i class="fab fa-js icon-large"></i>
+            <h3>HTML, CSS, JavaScript</h3>
+            <p>Frontend Development</p>
+          </div>
+          <div class="skill-card animate-scale-up-in-view">
+            <i class="fab fa-node-js icon-large"></i>
+            <h3>Node.js</h3>
+            <p>Backend Development</p>
+          </div>
+          <div class="skill-card animate-scale-up-in-view">
+            <i class="fas fa-database icon-large"></i>
+            <h3>Databases</h3>
+            <p>SQL, MongoDB</p>
+          </div>
+          <div class="skill-card animate-scale-up-in-view">
+            <i class="fab fa-python icon-large"></i>
+            <h3>Python</h3>
+            <p>Scripting, Data Science</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects-section section-padding">
+      <div class="container">
+        <h2 class="section-title animate-in-view">My Projects</h2>
+        <div class="projects-grid">
+
+          <div class="project-card animate-slide-up-in-view">
+            <div class="project-thumbnail">
+              <img src="bf9f0a49-bfa7-4425-9565-112a131b1140.png" alt="Online Stock Prediction" loading="lazy"/>
+              <img src="OIP.jpeg" alt="Stock Prediction System" loading="lazy"/>
+            </div>
+            <div class="project-info">
+              <h3>Online Stock Prediction</h3>
+              <p>My Stock Prediction System utilizes LSTM neural networks and comprehensive data analysis to accurately predict stock movements. It demonstrates my skills in deep learning, time series forecasting, and creating data-driven solutions for financial markets.</p>
+              <div class="project-links">
+                <a href="#" target="_blank" class="btn small-btn">Live Demo</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card animate-slide-up-in-view">
+            <div class="project-thumbnail">
+              <img src="erp system.jpeg" alt="ERP System" loading="lazy"/>
+            </div>
+            <div class="project-info">
+              <h3>ERP System</h3>
+              <p>My ERP system, crafted with PHP and HTML/CSS/JS, centralizes departmental data for improved decision-making. It highlights my skills in creating scalable, modular solutions for complex business needs.</p>
+              <div class="project-links">
+                <a href="#" target="_blank" class="btn small-btn">Live Demo</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card animate-slide-up-in-view">
+            <div class="project-thumbnail">
+              <img src="Online-exam-proctoring-system-1.webp" alt="Online Exam Proctoring System" loading="lazy"/>
+            </div>
+            <div class="project-info">
+              <h3>Online Exam Proctoring System</h3>
+              <p>I developed an Online Exam Proctoring System integrating MediaPipe, OpenCV, and TensorFlow for cheating detection—delivered via a React interface for real-time monitoring and analytics.</p>
+              <div class="project-links">
+                <a href="#" target="_blank" class="btn small-btn">Live Demo</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card animate-slide-up-in-view">
+            <div class="project-thumbnail">
+              <img src="OIP (1).jpeg" alt="Jarvis Voice Assistant" loading="lazy"/>
+            </div>
+            <div class="project-info">
+              <h3>Jarvis Voice Assistant</h3>
+              <p>My Jarvis Voice Assistant, built with Python, enables voice-controlled web searches, file access, and system controls—highlighting my expertise in AI-driven interfaces.</p>
+              <div class="project-links">
+                <a href="#" target="_blank" class="btn small-btn">Live Demo</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-section section-padding">
+      <div class="container">
+        <h2 class="section-title animate-in-view">Get In Touch</h2>
+        <p class="contact-intro animate-in-view">I'm always open to new opportunities and collaborations. Feel free to reach out!</p>
+        <form class="contact-form animate-in-view">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required/>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required/>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn primary-btn">Send Message</button>
+        </form>
+        <div class="social-links animate-in-view">
+          <a href="https://www.linkedin.com/in/kumar-aryan-0582152b4" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+          <a href="https://github.com/aryanpiro" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+          <a href="mailto:aryankumar9852700502@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 AR. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="portfolio.js"></script>
+</body>
+</html>
