@@ -7,7 +7,7 @@ This site showcases my skills, projects, and background as a **Full-Stack Develo
 
 ## 🚀 Live Site
 
-👉 [Click here to view live portfolio](https://yourusername.github.io/your-repo-name)
+👉 [Click here to view live portfolio](https://github.com/aryanpiro/MYPORTFOLIO/tree/main/aryanportfolio)
 
 *(Replace with your actual GitHub Pages URL after deployment.)*
 
